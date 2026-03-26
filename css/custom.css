@@ -1,0 +1,109 @@
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+    --pico-primary: #047858;
+    --pico-primary-background: #047858;
+    --pico-primary-border: var(--pico-primary-background);
+    --pico-primary-underline: rgba(4, 120, 88, 0.5);
+    --pico-primary-hover: #065f46;
+    --pico-primary-hover-background: #065f46;
+    --pico-primary-hover-border: var(--pico-primary-hover-background);
+    --pico-primary-hover-underline: var(--pico-primary-hover);
+    --pico-primary-focus: rgba(4, 120, 88, 0.375);
+    --pico-primary-inverse: #fff;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p.lead {
+    font-size: 1.15rem;
+    color: var(--pico-muted-color);
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+}
+
+.anweisung {
+    text-align: center;
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+    color: var(--pico-muted-color);
+}
+
+.input-group {
+    max-width: 500px;
+    margin: 0 auto 2rem;
+}
+
+.input-group label {
+    font-weight: 600;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.prompt-box {
+    background: var(--pico-card-background-color);
+    border: 2px solid var(--pico-primary);
+    border-radius: 8px;
+    padding: 1.5rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    margin-bottom: 1.5rem;
+}
+
+.copy-feedback {
+    display: none;
+    color: var(--pico-primary);
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.hinweis {
+    background: #f0fdf4;
+    border-left: 4px solid var(--pico-primary);
+    padding: 1rem 1.25rem;
+    border-radius: 4px;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+}
+
+.hinweis a {
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.85rem;
+    color: var(--pico-muted-color);
+    border-top: 1px solid var(--pico-muted-border-color);
+    margin-top: 2rem;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}

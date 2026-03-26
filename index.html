@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zwillingswürfel – Twin Transition Ideen</title>
+    <meta name="description" content="Generiert Prompts für Twin Transition Projektideen in der beruflichen Bildung.">
+    <meta property="og:title" content="Zwillingswürfel – Twin Transition Ideen">
+    <meta property="og:description" content="Generiert Prompts für Twin Transition Projektideen in der beruflichen Bildung.">
+    <meta property="og:image" content="img-vorschau.png">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/pico.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Zwillingswürfel</h1>
+            <p class="lead">Lasst uns Ideen für Twin Transition Projekte in der beruflichen Bildung entwickeln!</p>
+        </header>
+
+        <p class="anweisung">Würfelt zweimal und tragt die Begriffe aus Eurer Liste ein.</p>
+
+        <form id="promptForm" class="input-group">
+            <label for="digitalisierung">Begriff zu Digitalisierung</label>
+            <input type="text" id="digitalisierung" name="digitalisierung" placeholder="z.B. Künstliche Intelligenz" required>
+
+            <label for="nachhaltigkeit">Begriff zu Nachhaltigkeit</label>
+            <input type="text" id="nachhaltigkeit" name="nachhaltigkeit" placeholder="z.B. Kreislaufwirtschaft" required>
+
+            <div class="btn-container">
+                <button type="submit">Prompt generieren</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="container">
+            Material für den Workshop „KI und nachhaltige Bildung" am 26. März 2026 |
+            Ein Projekt von <a href="https://ebildungslabor.de">Nele Hirsch / eBildungslabor</a>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
