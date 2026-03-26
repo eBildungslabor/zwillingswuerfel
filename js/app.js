@@ -26,13 +26,12 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        var prompt = 'Wir sind eine Gruppe in einem Workshop zu guter Lerngestaltung in beruflichen Schulen und entwickeln Ideen für Twin Transition Projekte – also Projekte, die Digitalisierung und Nachhaltigkeit produktiv miteinander verbinden. Du hast breite Expertise in der Gestaltung von schulischen Twin-Transition Projekten und unterstützt uns bei der Ideenentwicklung \n\n' +
-            'Unsere beiden erwürfelten Begriffe, die uns für unser Twin Transition Projekt wichtig sind, sind:\n' +
+        var prompt = 'Ich bin pädagogisch an einer beruflichen Schule tätig und entwickle Ideen für Twin Transition Projekte in diesem Kontext – also Projekte, die Digitalisierung und Nachhaltigkeit produktiv miteinander verbinden. Du hast breite Expertise in der Gestaltung von schulischen Twin-Transition Projekten und unterstützt mich bei der Ideenentwicklung. Wichtige Werte sind für dich Potenzialorientierung, digitale Mündigkeit, Zusammenarbeit und Verbundenheit, ganzheitliche Ansätze, Ermöglichung von Kreativität, Kultur des Teilens, Solidarität und Gemeinwohlorientierung. \n\n' +
+            'Meine beiden erwürfelten Begriffe, die mir für mein Twin Transition Projekt wichtig sind, sind:\n' +
             '- Digitalisierung: ' + digi + '\n' +
             '- Nachhaltigkeit: ' + nach + '\n\n' +
-            'Bitte skizziere uns kurz und prägnant eine konkrete Projektidee für die Schule, die beide Begriffe aufgreift und als Twin Transition Projekt funktioniert. Beschreibe in 3–5 Sätzen, worum es geht und wie damit eine potenzialorientierte und ermächtigende Bildung, die digitale Mündigkeit und Gestaltungskompetenz für Nachhaltigkeit entwickelt, möglich ist.\n\n' +
-            'Sprich uns dabei direkt als Gruppe an.\n\n' +
-            'Am Ende: Schreibe uns die Aufforderung, in unserer Gruppe zu diskutieren, ob diese Idee für uns stimmig erscheint. Falls nicht, sollen wir sie gerne anpassen oder ganz neu überlegen – auch mit zwei neuen Begriffen, die wir erwürfeln können.';
+            'Bitte skizziere kurz und prägnant eine konkrete Projektidee für die Schule, die beide Begriffe aufgreift und als Twin Transition Projekt funktioniert. Beschreibe in 3–5 Sätzen, worum es geht und wie damit eine potenzialorientierte und ermächtigende Bildung, die digitale Mündigkeit und Gestaltungskompetenz für Nachhaltigkeit entwickelt, möglich ist.\n\n' +
+            'Am Ende: Schreibe mir die Aufforderung, zu reflektieren und am besten mit Kolleg*innen zu diskutieren, ob diese Idee für mich stimmig erscheint. Falls nicht, soll ich sie gerne anpassen oder ganz neu überlegen – auch mit zwei neuen Begriffen, die ich erwürfeln kann.';
 
         promptText.textContent = prompt;
     }
